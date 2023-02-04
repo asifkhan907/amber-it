@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  color: white;
+}
+.header h4 {
+  display: inline-block;
+
+  font-size: 14px;
+  padding: 10px 10px;
+  font-family: ;
+}
+.header h4 i {
+  color: red;
+}
+.h {
+  margin-left: 130px;
+}
+/* Header End */
+/* Menu start */
+.menu {
+  box-sizing: border-box;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.menu .logo img {
+  display: inline-block;
+  float: left;
+  padding-left: 100px;
+  padding-top: 5px;
+  background-color: white;
+}
+.menu .menubar {
+  background-color: white;
+}
+.menu .menubar ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.menu .menubar ul li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.menu .menubar ul li a {
+  padding: 20px 10px;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 13px;
+  font-family: "Fira sans", sans-serif;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s;
+}
+.menu .menubar ul li a:hover {
+  color: #d21e2b;
+}
+/* Menu end */
+
+.contact{
+  background-color: #F1F1F1;
+  width: 100%;
+  height: auto;
+}
+.contact .h1{
+  width: 600px;
+  height: auto;
+  display: inline-block;
+  float: left;
+  padding-left: 600px;
+  margin-top: 70px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 34px;
+  color: #dc3545;
+  font-style: normal;
+
+}
+.contact .img{
+
+  display: flex;
+  justify-content: center;
+  
+  margin-right: 300px;
+}
+.form{
+  width: 100%;
+  height: 800px;
+}
+.form .box1{
+  width: 700px;
+  height: auto;
+  display: inline-block;
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  
+}
+.form .box1 h3{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #111111;
+  margin-left: 10px;
+  
+}
+.form .box1 hr{
+  margin-top: 10px;
+  width: 100px;
+  border: 2px solid #D21E2B;
+  margin-left: 10px;
+}
+.form .box1 form .input{
+  width: 300px;
+  height: 50px;
+  padding: 14px 14px 14px 14px;
+  margin: 10px ;
+  background-color: #F6F7F8;
+  border-radius: 5px;
+  border: 0;
+}
+
+
+
+.subject{
+  width: 620px;
+  height: 50px;
+  padding: 14px 14px 14px 14px;
+  margin: 10px ;
+  background-color: #F6F7F8;
+  border-radius: 10px;
+  border: 0;
+}
+textarea{
+  width: 620px;
+  
+  padding: 14px 14px 14px 14px;
+  margin: 10px ;
+  background-color: #F6F7F8;
+  border-radius: 10px;
+  border: 0;
+}
+.form .box1 button{
+  width: 620px;
+  height: 50px;
+  padding: 14px 14px 14px 14px;
+  margin: 10px ;
+  background-color: #111111;
+  border-radius: 10px;
+  border: 0;
+  transition: 0.3s;
+}
+.form .box1 button a{
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+}
+.form .box1 button:hover{
+  background-color: #D21E2B;
+}
+.form .box2{
+  width: 500px;
+  height: auto;
+  display: inline-block;
+  padding-top: 130px;
+  
+}
+.form .box2 .a{
+  width: 30px;
+  height: auto;
+  display: inline-block;
+  float: left;
+}
+.form .box2 .i1,.i2,.i3{
+  border: 20px solid #D21E2B;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #D21E2B;
+  color: #FFFFFF;
+  
+}
+.i1{
+  margin-bottom: 7px;
+  border: 1px solid #999999;
+}
+.i2{
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+.form .box2 .b{
+  width: 450px;
+  height: auto;
+  display: inline-block;
+  
+}
+.form .box2 .b .span{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #111111;
+  font-style: normal;
+}
+.form .box2 .b .num{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #999999;
+  font-style: normal;
+}
+.form .box2 .b .span,.num{
+  
+  padding-left: 40px;
+  
+  
+}
+.e{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #111111;
+  font-style: normal;
+  padding-left: 40px;
+  
+}
+.g{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #999999;
+  font-style: italic;
+  padding-left: 40px;
+  
+}
+.form .box2 .gmail {
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #111111;
+  font-style: italic;
+  padding-left: 60px;
+}
+.hr1{
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* service start */
+.service{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-top: 1px solid #222222;
+    background-color: #222222;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.service hr{
+    margin-top: 10px;
+    width: 70px;
+    border: 1px solid #D21E2B;
+}
+.mainbox1{
+
+    width: 650px;
+    height: auto;
+    margin-top: 70px;
+    padding-left: 100px;
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid black;
+    
+}
+.mainbox1 .box1{
+    width: 300px;
+    display: inline-block;
+    float: left;
+}
+.mainbox1 .box1 p{
+    color: #999999;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+}
+.mainbox1 .box2{
+    width: 300px;
+    display: inline-block;
+    float: right;
+}
+.mainbox1 .box2 ul li,.mainbox2 .box1 ul li{
+    list-style-type: none;
+    
+}
+.mainbox1 .box2 ul li a , .mainbox2 .box1 ul li a{
+    text-decoration: none;
+    color: #999999;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.mainbox1 .box2 a:hover{
+    color: #ffffff;
+}
+.mainbox2 .box1 a:hover{
+    color: #ffffff;
+}
+.mainbox2{
+    width: 650px;
+    height: auto;
+    padding-top: 70px;
+    padding-right: 100px;
+    display: inline-block;
+    float: right;
+    border-bottom: 1px solid rgb(37, 36, 36);
+}
+.mainbox2 .box1{
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+.mainbox2 .box2{
+    width: 300px;
+    display: inline-block;
+    float: right;
+}
+.h2{
+    text-align: center;
+    border-top: 1px solid #353232;
+    background-color: #222222;
+    color: white;
+
+}
+span{
+    color: #D21E2B;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+/* service end */

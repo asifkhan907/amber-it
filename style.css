@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    color: white;
+   
+}
+.header h4{
+    display: inline-block;
+    
+    font-size: 14px;
+    padding: 10px 10px;
+    font-family: ;
+    
+}
+.header h4 i{
+    color: red;
+}
+.h{
+    margin-left: 130px;
+}
+/* Header End */
+/* Menu start */
+.menu{
+    box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+}
+.menu .logo img{
+    
+    display: inline-block;
+    float: left;
+    padding-left: 100px;
+    padding-top: 5px;
+    background-color: white;
+    
+    
+   
+}
+.menu .menubar{
+   background-color: white;
+    
+
+}
+.menu .menubar ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    
+    
+    
+    
+   
+    
+    
+}
+.menu .menubar ul li{
+    list-style-type: none;
+    margin-bottom: 30px;
+    
+   
+
+}
+.menu .menubar ul li a{
+    padding: 20px 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 13px;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s;
+    
+    
+
+   
+
+}
+.menu .menubar ul li a:hover{
+    color: #D21E2B;
+}
+/* Menu end */
+body{
+    background-color: #F6F6F6;
+    
+}
+.alpha{
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+    background-color: #BF1424;
+}
+.alpha .box1{
+    width: 600px;
+    height: auto;
+    display: inline-block;
+    float: left;
+    color: white;
+    padding-top: 70px;
+    padding-left: 100px;
+    font-size: 13px;
+    font-family: "Fira sans",sans-serif;
+
+}
+.alpha .box1 ul{
+    padding-left: 15px;
+    
+    text-decoration: none;
+    font-style: normal;
+    font-size: 13px;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 600;
+}
+.alpha .box1 ul li{
+    padding: 10px 0;
+}
+.alpha .box1 button a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Fira sans",sans-serif;
+    color: white;
+}
+.alpha .box1 p{
+    font-family: "Fira sans",sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 14px;
+    
+}
+.alpha .box1 hr{
+    width: 100px;
+    
+    border: 1px solid #e9e3e4;
+}
+.alpha .box1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px 25px;
+   background-color: #000000;
+   border-style: none;
+   transition: 0.3s;
+}
+.alpha .box1 button:hover{
+    background-color: #D21E2B;
+}
+.alpha .box1 .h1{
+    font-size: 42px;
+}
+.alpha .box1 .h8{
+    font-size: 25px;
+}
+.alpha .box1 .h4{
+    font-size: 15px;
+}
+.alpha .box2{
+    width: 600px;
+    height: auto;
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    
+}
+.alpha .box2 .a .a1{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: auto;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px 5px;
+    padding-bottom: 20px;
+    
+    
+}
+.alpha .box2 .a .a1 .h3{
+    padding-top: 100px;
+}
+.alpha .box2 .a .a1 p{
+    color: #B3B3B3;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+}
+.alpha .box2 .a .a1 button a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Fira sans",sans-serif;
+    background-color: #FFFFFF;
+    color: #D21E2B;
+    padding-bottom: 20px;
+}
+.alpha .box2 .a .a1 button{
+    border-style: none;
+}
+.alpha .box2 .a .a1 button a:hover{
+    background-color: #FFFFFF;
+    color: #A71E2A;
+}
+
+
+.alpha .box2 .a .a2{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: auto;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px 5px;
+    padding-bottom: 20px;
+    
+    
+}
+.alpha .box2 .a .a2 .h3{
+    padding-top: 100px;
+}
+.alpha .box2 .a .a2 p{
+    color: #B3B3B3;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+}
+.alpha .box2 .a .a2 button a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Fira sans",sans-serif;
+    background-color: #FFFFFF;
+    color: #D21E2B;
+    padding-bottom: 20px;
+}
+.alpha .box2 .a .a2 button{
+    border-style: none;
+}
+.alpha .box2 .a .a2 button a:hover{
+    background-color: #FFFFFF;
+    color: #A71E2A;
+}
+.alpha .box2 .b .b2{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: auto;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px 5px;
+    padding-bottom: 20px;
+    
+    
+}
+.alpha .box2 .b .b2 .h3{
+    padding-top: 100px;
+}
+.alpha .box2 .b .b2 p{
+    color: #B3B3B3;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+}
+.alpha .box2 .b .b2 button a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Fira sans",sans-serif;
+    background-color: #FFFFFF;
+    color: #D21E2B;
+    padding-bottom: 20px;
+}
+.alpha .box2 .b .b2 button{
+    border-style: none;
+}
+.alpha .box2 .b .b2 button a:hover{
+    background-color: #FFFFFF;
+    color: #A71E2A;
+}
+
+.alpha .box2 .b .b1{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: auto;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px 5px;
+    padding-bottom: 20px;
+    
+    
+}
+.alpha .box2 .b .b1 .h3{
+    padding-top: 100px;
+}
+.alpha .box2 .b .b1 p{
+    color: #B3B3B3;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+}
+.alpha .box2 .b .b1 button a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Fira sans",sans-serif;
+    background-color: #FFFFFF;
+    color: #D21E2B;
+    padding-bottom: 20px;
+}
+.alpha .box2 .b .b1 button{
+    border-style: none;
+}
+.alpha .box2 .b .b1 button a:hover{
+    background-color: #FFFFFF;
+    color: #A71E2A;
+}
+
+.bita{
+    width: 100%;
+    height: 800px;
+}
+.bita .box1{
+    width: 600px;
+    height: auto;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.div{
+    text-align: center;
+    padding-top: 80px;
+}
+.div h1{
+    font-size: 35px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+.div hr{
+    
+    width: 100px;
+    
+    height: auto;
+    margin-left: 630px;
+    
+    border: 1px solid #D21E2B;
+}
+
+.bita .box1 .h4{
+    font-size: 22px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    line-height: 35px;
+    color: #000000;
+    font-style: normal;
+}
+.bita .box1 p{
+    font-size: 25px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    
+    
+    font-style: normal;
+}
+.bita .box1 p sub{
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #777777;
+    font-style: normal;
+}
+.bita .box1 p span{
+    font-size: 50px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    line-height: 65px;
+    color: black;
+    font-style: normal;
+}
+.bita .box1 h4{
+    font-size: 13px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    color: #999999;
+    font-style: normal;
+}
+.bita .box1 hr{
+    width: 200px;
+    margin-left: 200px;
+    
+}
+.bita .box1 button a{
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Fira sans",sans-serif;
+    
+    color: #D21E2B;
+    
+}
+.bita .box1 button{
+    border-style: none;
+}
+.bita .box1 button a:hover{
+    
+    color: #A71E2A;
+}
+
+.bita .box2{
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banar section */
+.banar{
+    width: 1300px;
+    background-color: #F6F6F6;
+    
+
+}
+.banar .box1{
+    width: 600px;
+    
+    padding-left: 100px;
+    display: ;
+    float: left;
+    text-align: justify;
+    
+
+    
+}
+
+.banar .box1 h4{
+   color: #D21E2B;
+   font-weight: 600;
+   font-family: "Fira sans",sans-serif;
+}
+.banar .box1 h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Fira sans",sans-serif;
+}
+.banar .box1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px 25px;
+   background-color: #D21E2B;
+   border-style: none;
+   transition: 0.3s;
+    
+}
+.banar .box1 button a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Fira sans",sans-serif;
+    color: white;
+}
+.banar .box1 button:hover{
+    background-color: #222222;
+}
+.banar .box1 p{
+    color: #B3B3B3;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.banar .box1 hr{
+    width: 100px;
+    
+    border: 1px solid #D21E2B;
+}
+.banar .box2{
+    width: 600px;
+    
+    display: inline-block;
+    
+    
+}
+.image{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* banar section */
+.service{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-top: 1px solid #222222;
+    background-color: #222222;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.service hr{
+    margin-top: 10px;
+    width: 70px;
+    border: 1px solid #D21E2B;
+}
+.mainbox1{
+
+    width: 650px;
+    height: auto;
+    margin-top: 70px;
+    padding-left: 100px;
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid black;
+    
+}
+.mainbox1 .box1{
+    width: 300px;
+    display: inline-block;
+    float: left;
+}
+.mainbox1 .box1 p{
+    color: #999999;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+}
+.mainbox1 .box2{
+    width: 300px;
+    display: inline-block;
+    float: right;
+}
+.mainbox1 .box2 ul li,.mainbox2 .box1 ul li{
+    list-style-type: none;
+    
+}
+.mainbox1 .box2 ul li a , .mainbox2 .box1 ul li a{
+    text-decoration: none;
+    color: #999999;
+    font-family: "Fira sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.mainbox1 .box2 a:hover{
+    color: #ffffff;
+}
+.mainbox2 .box1 a:hover{
+    color: #ffffff;
+}
+.mainbox2{
+    width: 650px;
+    height: auto;
+    padding-top: 70px;
+    padding-right: 100px;
+    display: inline-block;
+    float: right;
+    border-bottom: 1px solid rgb(37, 36, 36);
+}
+.mainbox2 .box1{
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+.mainbox2 .box2{
+    width: 300px;
+    display: inline-block;
+    float: right;
+}
+.h2{
+    text-align: center;
+    border-top: 1px solid #353232;
+    background-color: #222222;
+    color: white;
+
+}
+span{
+    color: #D21E2B;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  
+
+
+/* media query start */
+@media (max-width: 1075px) {
+
+    .checkbtn {
+      display: block;
+    }
+    
+    .menu .menubar ul {
+        display: block;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(135, 44, 219);
+      top: 100px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    .menu .menubar ul li {
+      display: block;
+      margin: 50px 0;
+      line-height: 10px;
+    }
+    .menu .menubar ul li a {
+        display: block;
+      font-size: 20px;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+  }
